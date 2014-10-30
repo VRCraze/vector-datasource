@@ -26,7 +26,6 @@ FROM
 			'archaeological_site',
 			'ruins'
 		)
-		OR tourism = 'museum'
 		OR railway = 'abandoned'
 		OR name IN (
 			'Museo de las Momias de Guanajuato',
@@ -60,7 +59,6 @@ FROM
 			'archaeological_site',
 			'ruins'
 		)
-		OR tourism = 'museum'
 		OR railway = 'abandoned'
 		OR name IN (
 			'Museo de las Momias de Guanajuato',
@@ -94,7 +92,6 @@ FROM
 			'archaeological_site',
 			'ruins'
 		)
-		OR tourism = 'museum'
 		OR railway = 'abandoned'
 		OR name IN (
 			'Museo de las Momias de Guanajuato',
