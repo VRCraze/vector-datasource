@@ -18,7 +18,8 @@ FROM
 		landuse = 'cemetery'
 		OR amenity IN (
 			'grave_yard',
-			'crematorium'
+			'crematorium',
+                        'library'
 		)
 		OR historic IN (
 			'tomb',
@@ -51,7 +52,8 @@ FROM
 		landuse = 'cemetery'
 		OR amenity IN (
 			'grave_yard',
-			'crematorium'
+			'crematorium',
+                        'library'
 		)
 		OR historic IN (
 			'tomb',
@@ -84,7 +86,8 @@ FROM
 		landuse = 'cemetery'
 		OR amenity IN (
 			'grave_yard',
-			'crematorium'
+			'crematorium',
+                        'library'
 		)
 		OR historic IN (
 			'tomb',
